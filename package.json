@@ -1,0 +1,28 @@
+{
+  "name": "TextMeNotes",
+  "version": "0.2.0",
+  "description": "TextMeNotes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^1.0.0",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdcorps/textmenotes"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Sukhpal Saini",
+  "license": "MIT"
+}

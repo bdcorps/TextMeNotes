@@ -1,0 +1,6 @@
+{
+  "name": "TextMeNotes",
+  "description": "TextMeNotes",
+  "repository": "https://github.com/bdcorps/textmenotes",
+  "keywords": ["node", "express", "static"]
+}

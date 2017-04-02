@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Restaurant Reviews Watson API</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="mt-3">
+
+            <h1>Restaurant Reviews Categorization using Watson Natural Language Classifier</h1>
+            <h4>
+This demo utilizes the <a href="https://www.ibm.com/watson/developercloud/nl-classifier.html">Watson Natural Language Classifier</a> to categorize sample restaurant reviews data so we can gather insights on the effectiveness of the restaurant business model.
+</h4>
+            <h4>
+Follow the tutorial <a href="https://developer.ibm.com/recipes/tutorials/natural-language-classifier-with-watson-api/">here.</a>
+</h4>
+
+            <div class="content-container">
+                <h4>Some sample restaurant reviews to try out:</h4>
+                <button class="white-button prompt">The red wine was fantastic</button>
+                <button class="white-button prompt">What a DISASTER!!! I used to love eating here but the food now is terrible.</button>
+
+
+            </div>
+            <form action="/insertnote" method="POST">
+                <h2>Enter the text to be classified: </h2>
+
+                <input type="text" name="userid" value=""><br>
+                <input type="text" name="note" value=""><br>
+                <button type="submit" class="white-button" id="button">Submit</button>
+
+
+            </form>
+
+        </div>
+
+
+
+</body>
+
+</html>
