@@ -143,17 +143,6 @@ app.post('/getnotes', function(req, res) {
 
 })
 
-app.listen(app.get('port'), function() {
-    console.log("Node app is running at localhost:" + app.get('port'))
-})
-ell
-else
-    console.log("Note has been created");
-});
-}
-res.send('Note Saved.')
-});
-})
 
 
 app.post('/getnotes', function(req, res) {
