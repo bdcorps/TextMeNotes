@@ -7,16 +7,16 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3",
-    "cfenv": "1.0.x",
     "async": "*",
-    "cloudant": "*",
-    "body-parser": "1.13.3",
-    "request": "*",
-    "nano":"*",
+    "body-parser": "^1.13.3",
+    "cfenv": "^1.0.4",
+    "cloudant": "^1.7.1",
+    "express": "^4.15.2",
+    "fs": "*",
+    "json2csv": "^3.7.3",
+    "nano": "*",
     "path": "*",
-    "json2csv": "*",
-    "fs": "*"
+    "request": "^2.81.0"
   },
   "engines": {
     "node": "4.0.0"
