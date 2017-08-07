@@ -143,31 +143,6 @@ app.post('/getnotes', function(req, res) {
 
 })
 
-
-
-app.post('/getnotes', function(req, res) {
-    var updatednotes = "";
-    db.find({
-        selector: {
-            userid: req.body.userid
-        }
-    }, function(er, result) {
-        if (er) {
-            throw er;
-        }
-        eventNames = result.docs;
-        console.log('Found %d documents with name ' + req.query.msg, result.docs.length);
-
-        if (result.docs.length > 0) {
-            updatednotes = eventNames[0].notes;
-        }
-        res.json({
-            user: updatednotes
-        });
-    });
-
-})
-
 app.listen(app.get('port'), function() {
     console.log("Node app is running at localhost:" + app.get('port'))
 })
